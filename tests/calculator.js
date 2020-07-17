@@ -8,6 +8,6 @@ describe('demo calculator tests', function(){
         homepage.enterSecondNumber('3');        
         homepage.clickGo();       
         homepage.verifyResult('7');
-        browser.sleep(3000);
+        browser.sleep(2800);
     });
 });
